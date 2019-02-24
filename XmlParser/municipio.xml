@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<estado>
+    <municipios>
+        <cp>91000</cp>
+        <nombre>Xalapa</nombre>
+    </municipios>
+    <municipios>
+        <cp>92000</cp>
+        <nombre>Banderilla</nombre>
+    </municipios>
+    <municipios>
+        <cp>93000</cp>
+        <nombre>Coatepec</nombre>
+    </municipios>
+    <nombre>veracruz</nombre>
+</estado>

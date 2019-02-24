@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace = "Catalogo">
+    <select id = "getallCatalogos" resultType = "pojos.Catalogo">
+        SELECT
+            catalogo.idcatalogo,
+            catalogo.idTipo,
+            catalogo.nombre,
+            catalogo.orden
+        FROM catalogo
+    </select>
+    
+    <select id = "getCatalogoByIdtipo" resultType = "pojos.Catalogo" parameterType = "int">
+        SELECT
+            catalogo.idcatalogo,
+            catalogo.idTipo,
+            catalogo.nombre,
+            catalogo.orden
+        FROM catalogo
+        WHERE catalogo.idTipo = #{id}
+    </select>
+    
+    <insert id="registrarCatalogo" parameterType = "pojos.Catalogo">
+        INSERT INTO catalogo (idcatalo, idtipo, nombre, orden)
+        VALUES(#{idcatalogo}, #{idtipo}, #{nombre}, #{orden})
+    </insert>
+    
+</mapper>
+

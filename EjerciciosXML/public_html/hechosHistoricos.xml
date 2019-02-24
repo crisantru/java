@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hechosHistoricos.xsl"?>
+
+<hechos_historicos>
+   <hecho descripcion="IBM da a conocer el PC.">
+      <fecha>
+         <dia>12</dia>
+         <mes>8</mes>
+         <año>1981</año>
+      </fecha>
+   </hecho>
+   <hecho descripcion="Se funda Google.">
+      <fecha>
+         <dia>4</dia>
+         <mes>9</mes>
+         <año>1998</año>
+      </fecha>
+   </hecho>
+</hechos_historicos>
